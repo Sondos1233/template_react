@@ -1,0 +1,9 @@
+:root{
+    --bg-btn:rgb(29,165,155);
+    --bg-btn-hover:rgb(25, 150, 141);
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}

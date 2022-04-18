@@ -1,0 +1,96 @@
+
+.header{
+    background-image: url(../../../images/Arch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    height: auto;
+    padding-bottom: 100px;
+}
+nav button.sign{
+    background-color: var(--bg-btn);
+    color: white;
+}
+nav button.sign:hover{
+    background-color: var(--bg-btn-hover);
+    color: white;
+}
+.header_content{
+    padding-top: 100px;
+}
+.header_content .best_place{
+    width: 35%;
+    font-size: 60px;
+}
+.header_content button.btn_buy{
+    background-color: var(--bg-btn);
+    color: white;
+    border-radius: 8px 0 0 8px;
+    -webkit-border-radius: 8px 0 0 8px;
+    -moz-border-radius: 8px 0 0 8px;
+    -ms-border-radius: 8px 0 0 8px;
+    -o-border-radius: 8px 0 0 8px;
+}
+.header_content button.btn_buy:hover{
+    background-color: var(--bg-btn-hover);
+
+    
+}
+.header_content button.btn_Sell{
+  border-radius: 0 8px 8px 0;
+  background-color: rgb(236, 236, 236);
+  color: rgb(173, 173, 173);
+  -webkit-border-radius: 0 8px 8px 0;
+  -moz-border-radius: 0 8px 8px 0;
+  -ms-border-radius: 0 8px 8px 0;
+  -o-border-radius: 0 8px 8px 0;
+}
+.header_content button.btn_Sell:hover{
+    background-color: rgb(226, 224, 224);
+}
+.header_content .header_where{
+    width: 65%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.header_content .header_where button.btn_Search{
+   background-color: var(--bg-btn);
+   color: white;
+   padding:12px 28px ;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+.header_content .header_where button.btn_Search:hover{
+    background-color: var(--bg-btn-hover);
+ }
+ @media (max-width: 991px) {
+   
+    .header_content .header_where{
+        width: 80%;
+    }
+    .header_content .best_place{
+        width: 45%;
+        
+    }
+  }
+  @media (max-width: 767px) {
+    .header_content .header_where{
+        width: 90%;
+    }
+    .header_content .best_place{
+        width: 55%;
+        
+    }
+}
+@media (max-width:576px){
+    .header_content .best_place{
+        font-size: 50px;
+    }
+}

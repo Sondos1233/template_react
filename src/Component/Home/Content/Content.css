@@ -1,0 +1,39 @@
+.company_content {
+    margin-top: 100px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.company_content img {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height:590px;
+    object-fit: cover;
+    
+}
+.company_content section p{
+    color: rgb(139, 139, 139);
+    font-size: 15px;
+   
+}
+@media (max-width: 767px) {
+    .company_content{
+        margin-top: 50px;
+    }
+    .company_content img.Company_Photo{
+        display: none;
+
+    }
+}
+
+

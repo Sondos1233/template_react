@@ -1,0 +1,20 @@
+.Cust_review{
+    margin-top: 100px;
+}
+.Cust_review section button.btn-view{
+    background-color: var(--bg-btn);
+    color: white;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.Custo_test{
+    font-size: 50px;
+}
+@media (max-width: 991px) {
+    .Custo_test{
+        font-size: 30px;
+    }
+}

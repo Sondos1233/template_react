@@ -1,0 +1,8 @@
+footer section ul  {
+    list-style-type: none;
+    
+}
+footer section ul li{
+     font-size: 13px;
+     margin: 16px 0;
+}

@@ -1,0 +1,45 @@
+.home_dream{
+    margin-top: 100px;
+}
+.home_dream .yourhouse{
+    margin-top: 50px;
+}
+.home_dream section img{
+    width:50%;
+    height:500px;
+    object-fit:cover
+}
+.home_dream  section p{
+    color: rgb(139, 139, 139);
+    font-size: 15px;
+   
+}
+.home_dream button.btn-explore{
+    background-color: var(--bg-btn);
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.home_dream button.btn-explore:hover{
+    background-color: var(--bg-btn-hover);
+}
+@media (max-width: 991px) {
+    .home_dream .yourhouse{
+        margin-top: 0;
+    }
+    .home_dream section img{
+        height: 600px;
+    }
+}
+@media (max-width: 767px) {
+    .home_dream{
+        margin-top: 50px;
+    }
+    .home_dream img{
+        display: none;
+
+    }
+}
